@@ -45,9 +45,7 @@ dependencies {
     // Validation
     implementation("io.quarkus:quarkus-hibernate-validator")
     
-    // Messaging (to be used later)
-    implementation("io.quarkus:quarkus-smallrye-reactive-messaging")
-    implementation("io.quarkus:quarkus-smallrye-reactive-messaging-kafka")
+
     
     // OpenAPI documentation
     implementation("io.quarkus:quarkus-smallrye-openapi")
