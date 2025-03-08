@@ -65,7 +65,7 @@ class Asset private constructor(
                 description = description,
                 acquisitionDate = acquisitionDate,
                 acquisitionCost = acquisitionCost,
-                currentValue = acquisitionCost, // Initially the same as acquisition cost
+                currentValue = acquisitionCost,
                 location = location,
                 status = AssetStatus.ACTIVE,
                 category = category
